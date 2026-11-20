@@ -1,0 +1,29 @@
+@layer base {
+  .contenedor {
+    max-width: 72rem;
+    margin-inline: auto;
+    padding-inline: var(--espacio-3);
+  }
+
+  .cabecera {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    gap: var(--espacio-3);
+    padding-block: var(--espacio-4);
+  }
+
+  .cabecera nav {
+    display: flex;
+    flex-wrap: wrap;
+    gap: var(--espacio-3);
+  }
+
+  .grid-noticias {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(min(100%, 18rem), 1fr));
+    gap: var(--espacio-4);
+    padding-block: var(--espacio-5);
+  }
+}

@@ -1,0 +1,21 @@
+:root {
+  --color-fondo: #0b1d3a;
+  --color-superficie: #13284d;
+  --color-texto: #f1f4fa;
+  --color-texto-suave: #b8c3d9;
+  --color-acento: #ffb347;
+
+  --espacio-1: 0.25rem;
+  --espacio-2: 0.5rem;
+  --espacio-3: 1rem;
+  --espacio-4: 1.5rem;
+  --espacio-5: 2rem;
+
+  --texto-pequeno: 0.875rem;
+  --texto-base: 1rem;
+  --texto-medio: 1.25rem;
+  --texto-grande: 1.5625rem;
+
+  --fuente-base: system-ui, sans-serif;
+  --radio-card: 0.75rem;
+}
